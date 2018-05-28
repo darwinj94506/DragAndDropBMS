@@ -1,8 +1,8 @@
 ## Installation
 
 ```bash
-git clone https://github.com/kevoj/angular-editor-fabric-js.git
-cd angular-editor-fabric-js
+git clone https://github.com/darwinj94506/DragAndDropBMS.git
+cd DragAndDropBMS
 npm install
 ```
 ## Start
