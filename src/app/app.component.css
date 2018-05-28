@@ -10,8 +10,9 @@
     -webkit-transition: .5s ease;
     -webkit-transition: .5s ease;
     padding: 3px;
-    max-width: 120px;
+    max-width: 30px;
   }
+ 
   
   .images-item:hover {
     opacity: 0.7;

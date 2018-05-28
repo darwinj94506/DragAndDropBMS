@@ -31,8 +31,8 @@ export class AppComponent {
   private textString: string;
   private url: string = '';
   private size: any = {
-    width: 500,
-    height: 800
+    width: 900,
+    height: 700
   };
 
   private json: any;
@@ -157,8 +157,9 @@ export class AppComponent {
         hasRotatingPoint: true,
         peloas: 12
       });
-      image.setWidth(150);
-      image.setHeight(150);
+      //aqui la escucha de evento
+      image.setWidth(40);
+      image.setHeight(30);
       this.extend(image, this.randomId());
       this.canvas.add(image);
       this.selectItemAfterAdded(image);
